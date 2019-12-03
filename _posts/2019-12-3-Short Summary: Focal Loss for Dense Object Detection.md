@@ -27,6 +27,6 @@ The loss function is simply cross-entropy weighted with a term, that decreases e
 
 Focal loss:
 
-![Visualization of different modalities.](/assets/images/focal-loss.png)
+$$FL(p_t) = -\alpha_t (1-p_t)^{\gamma} \log(p_t) $$
 
 Gamma controls how much easily classified samples contribute to the loss. High gamma means less contribution and vice versa. Alpha is similar as in weighted cross-entropy and is a constant weighting factor for background-/foreground-samples.
