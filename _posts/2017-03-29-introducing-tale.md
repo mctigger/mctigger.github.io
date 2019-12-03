@@ -32,3 +32,5 @@ Thanks for checking out Tale!
  $ inline_{math} $
 
  \[A_i\]
+
+ \(A_i\)
