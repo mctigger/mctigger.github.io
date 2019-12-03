@@ -4,30 +4,29 @@ layout: default
 
 <div class="catalogue">
   {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-      <div>
-        <time datetime="{{ post.date }}" class="catalogue-time">
-          {{ post.date | date: "%B %d, %Y" }}
-          by 
-          {% if post.author %}
-            {{ post.author }}
-          {% else %}
-            {{ site.author.name }}
-          {% endif %}
-        </time>
+    <div>
+      <time datetime="{{ post.date }}" class="catalogue-time">
+        {{ post.date | date: "%B %d, %Y" }}
+        by 
+        {% if post.author %}
+          {{ post.author }}
+        {% else %}
+          {{ site.author.name }}
+        {% endif %}
+      </time>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
         <h1 class="catalogue-title">{{ post.title }}</h1>
-        <div class="catalogue-line"></div>
+      </a>
+      <div class="catalogue-line"></div>
+      <p>
+        <ul class="post-tag-list">
+          {% for tag in post.tags %}
+            <li>{{tag}}</li>
+          {% endfor %}
+        </ul>
+      </p>
 
-        <p>
-            <ul class="post-tag-list">
-              {% for tag in post.tags %}
-                <li>{{tag}}</li>
-              {% endfor %}
-            </ul>
-        </p>
-
-      </div>
-    </a>
+    </div>
   {% endfor %}
 </div>
 
