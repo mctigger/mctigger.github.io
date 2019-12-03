@@ -30,10 +30,15 @@ Thanks for checking out Tale!
 %%A_i%%
 
 $ inline_{math} $
+
 $$ inline_{math} $$
+
 $$ A_i $$
 
 \[A_i\]
+
 \\[A_i\\]
+
 \(A_i\)
+
 \\(A_i\\)
