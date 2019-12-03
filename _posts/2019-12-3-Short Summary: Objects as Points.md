@@ -7,7 +7,7 @@ tags: ["2d-detection", "3d-detection", "single-shot", "pose-estimation", "short-
 
 Authors: Xingyi Zhou, Dequan Wang, Philipp Krähenbühl
 
-https://arxiv.org/pdf/1904.07850.pdf 
+Link to paper: [https://arxiv.org/pdf/1904.07850.pdf](https://arxiv.org/pdf/1904.07850.pdf) 
 
 ## Problem
 
