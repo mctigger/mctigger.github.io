@@ -2,6 +2,7 @@
 layout: post
 title:  "Paper Summary: Box2Pix: Single-Shot Instance Segmentation by Assigning Pixels to Object Boxes"
 author: "Tim Joseph"
+tags: ["2d-detection", "instance segmentation", "single-shot"]
 ---
 
 Jonas Uhrig, E. Rehder, B. Fröhlich, U. Franke, Thomas Brox (2018)
