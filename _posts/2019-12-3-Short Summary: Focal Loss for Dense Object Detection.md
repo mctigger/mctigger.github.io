@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "Short Summary: Focal Loss for Dense Object Detection"
+title:  "Short Summary: Focal Loss for Dense Object Detection (2017)"
 author: "Tim Joseph"
 tags: ["2d-detection", "instance segmentation", "single-shot"]
 ---
 
-Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He,  Piotr Dollar (2017)
+Authors: Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He,  Piotr Dollar
 
-https://arxiv.org/pdf/1708.02002.pdf
+
+Link to paper: [https://arxiv.org/pdf/1708.02002.pdf](https://arxiv.org/pdf/1708.02002.pdf) 
 
 ## Problem
 

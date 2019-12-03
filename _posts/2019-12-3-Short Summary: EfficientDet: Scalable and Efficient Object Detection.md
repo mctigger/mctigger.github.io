@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Short Summary: EfficientDet: Scalable and Efficient Object Detection"
+title:  "Short Summary: EfficientDet: Scalable and Efficient Object Detection (2019)"
 author: "Tim Joseph"
 tags: ["2d-detection", "multi-scale feature fusion", "short-summary"]
 ---
 
-Mingxing Tan, Ruoming Pang, Quoc V. Le (2019)
+Authors: Mingxing Tan, Ruoming Pang, Quoc V. Le
 
-https://arxiv.org/pdf/1911.09070.pdf
+Link to paper: [https://arxiv.org/pdf/1911.09070.pdf](https://arxiv.org/pdf/1911.09070.pdf)
 
 ## Problem
 
