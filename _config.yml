@@ -1,17 +1,16 @@
 # Site settings
 title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+description:    "Blog about AI/Autonomous Driving Research"
+url:            "https://mctigger.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Tim Joseph
+  url:          https://mctigger.github.io
+  email:        tim@mctigger.com
 
 # Build settings
 markdown:       kramdown
