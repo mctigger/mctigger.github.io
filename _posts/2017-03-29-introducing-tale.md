@@ -1,38 +1,28 @@
 ---
 layout: post
-title:  "Introducing Tale"
-author: "Chester"
-comments: true
-usemathjax: true
+title:  "Paper Summary: Box2Pix: Single-Shot Instance Segmentation by Assigning Pixels to Object Boxes"
+author: "Tim Joseph"
 ---
 
-Tale is a minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers. It is designed and developed by [myself](https://github.com/chesterhow/) for a friend who writes short stories.
+Jonas Uhrig, E. Rehder, B. Fröhlich, U. Franke, Thomas Brox (2018)
 
-## Tale features
-- Compatible with GitHub Pages
-- Responsive design (looks just as good on mobile)
-- Syntax highlighting, with the help of Pygments
-- Markdown and HTML text formatting
-- Pagination of posts
+https://lmb.informatik.uni-freiburg.de/Publications/2018/UB18/paper-box2pix.pdf
 
-Head over to the [Example Content]({{ site.baseurl }}/2017-03-16/example-content) post for a showcase of Tale's text formatting features.
+## Problem
 
-## Browser Support
-Tale works on most if not all modern browsers, including Chrome, Safari and Firefox 👍🏼
+2D-Detection, Instance Segmentation
 
-## Download or Contribute
-Tale is publicly hosted on GitHub, so go ahead and download or fork it at the [GitHub repository](https://github.com/chesterhow/tale). If you spot any bugs or have any suggestions, feel free to create an issue or make a pull request.
+## Improvement over previous methods
 
-Thanks for checking out Tale!
+* No post-processing necessary.
 
-## Math
+## Method 
+Their method is similar to Single-Shot Multibox Detector with an extension for instance segmentation. They create bounding-box predictions with SSD, but add additionally deconvolution layers after the network (creating a U-Net) with a semantic segmentation output. Furthermore, they also predict a vector for each pixel that points to the center of that pixel's associated bounding-box. Each pixel that points sufficiently close to an object's bounding box center is assigned to this object resulting in the mask of the object.
 
-$ inline_{math} $
+![Visualization of different modalities.](images/box2pix.png)
 
-$$ inline_{math} $$
 
-$$ A_i $$
+## Implementation
+They use GoogLeNet as backbone and make it a U-Net. For loss they punish the pixel-wise vector that points to the object center with the offset from the center. If a pixel lies outside of a predicted boy it is additionally punished with the with the distance to the closest bounding box. 
 
-\\[A_i\\]
-
-\\(A_i\\)
+![Visualization of different modalities.](images/box2pix-architecture.png)
