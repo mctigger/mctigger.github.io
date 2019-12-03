@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Short Summary: Objects as Points"
+title:  "Short Summary: Objects as Points (2019)"
 author: "Tim Joseph"
 tags: ["2d-detection", "3d-detection", "single-shot", "pose-estimation", "short-summary"]
 ---
 
-Xingyi Zhou, Dequan Wang, Philipp Krähenbühl (2019)
+Authors: Xingyi Zhou, Dequan Wang, Philipp Krähenbühl
 
 https://arxiv.org/pdf/1904.07850.pdf 
 
