@@ -28,3 +28,7 @@ Thanks for checking out Tale!
 ## Math
 
 %%A_i%%
+
+ $ inline_{math} $
+
+ \[A_i\]
