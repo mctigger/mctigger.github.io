@@ -24,3 +24,7 @@ Tale works on most if not all modern browsers, including Chrome, Safari and Fire
 Tale is publicly hosted on GitHub, so go ahead and download or fork it at the [GitHub repository](https://github.com/chesterhow/tale). If you spot any bugs or have any suggestions, feel free to create an issue or make a pull request.
 
 Thanks for checking out Tale!
+
+## Math
+
+%%A_i%%
