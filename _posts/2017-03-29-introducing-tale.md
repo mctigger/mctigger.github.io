@@ -27,14 +27,12 @@ Thanks for checking out Tale!
 
 ## Math
 
-%%A_i%%
-
 $ inline_{math} $
 
 $$ inline_{math} $$
 
 $$ A_i $$
 
-\[A_i\]
+\\[A_i\\]
 
 \\(A_i\\)
