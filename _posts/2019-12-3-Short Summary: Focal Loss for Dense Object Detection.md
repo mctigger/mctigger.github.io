@@ -5,7 +5,7 @@ author: "Tim Joseph"
 tags: ["2d-detection", "instance segmentation", "single-shot"]
 ---
 
-Authors: Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He,  Piotr Dollar
+**Authors**: Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He,  Piotr Dollar
 
 
 Link to paper: [https://arxiv.org/pdf/1708.02002.pdf](https://arxiv.org/pdf/1708.02002.pdf) 
