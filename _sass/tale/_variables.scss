@@ -1,6 +1,6 @@
 // Colors
-$default-color: rgb(5, 5, 38);;
-$default-shade: #353535;
+$default-color: rgb(5, 5, 38);
+$default-shade: rgb(5, 5, 38);
 $default-tint: #aaa;
 $grey-1: #979797;
 $grey-2: #e5e5e5;
@@ -13,8 +13,10 @@ $code-color: #bf616a;
 // Fonts
 $serif-primary: Charter, Georgia, serif;
 $serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
-$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+$sans-serif: 'Heebo', 'Montserrat', sans-serif;
 $monospaced: Menlo, Monaco, monospace;
+
+
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
