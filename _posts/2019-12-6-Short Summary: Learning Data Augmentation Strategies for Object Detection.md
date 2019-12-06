@@ -6,9 +6,9 @@ tags: ["2d-detection", "data-augmentation", "short-summary"]
 ---
 
 
-> Authors: Barret Zoph, Ekin D. Cubuk, Golnaz Ghiasi, Tsung-Yi Lin, Jonathon Shlens, Quoc V. Le
+Authors: Barret Zoph, Ekin D. Cubuk, Golnaz Ghiasi, Tsung-Yi Lin, Jonathon Shlens, Quoc V. Le
 
-> Link to paper: [https://arxiv.org/pdf/1906.11172.pdf)
+Link to paper: [https://arxiv.org/pdf/1906.11172.pdf)
 
 ## Problem
 
